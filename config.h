@@ -100,7 +100,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Right,  tagmon,         {.i = +1 } },
 	{ MODKEY,	                   		XK_minus,  setgaps,	       {.i = -1 } },
 	{ MODKEY,			                  XK_equal,  setgaps,   	   {.i = +1 } },
-	{ MODKEY|ShiftMask,		XK_equal,  setgaps,	   {.i =  0 } },
+	{ MODKEY|ShiftMask,		          XK_equal,  setgaps,   	   {.i =  0 } },
 	{ MODKEY,                       XK_F5,     xrdb,           {.v = NULL } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
